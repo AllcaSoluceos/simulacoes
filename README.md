@@ -1,0 +1,1 @@
+#Simulação ltspice simulidf

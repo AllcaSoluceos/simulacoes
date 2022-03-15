@@ -1,0 +1,59 @@
+<circuit type="simulide_1.0" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-21" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-320" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-21" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Voltage="5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-23" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-304" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-23" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Voltage="5 V" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-29" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,-288" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-29" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Voltage="5 V" />
+
+<item itemtype="Subcircuit" CircId="74HC151-375" mainComp="false" Show_id="true" Show_Val="false" Pos="-168,-432" rotation="0" hflip="1" vflip="1" label="74HC151-375" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true" />
+
+<item itemtype="Ground" CircId="Ground-425" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-184" rotation="0" hflip="1" vflip="1" label="Ground-425" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Oscope" CircId="Oscope-461" mainComp="false" Show_id="false" Show_Val="false" Pos="112,-432" rotation="0" hflip="1" vflip="1" label="Oscope-461" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _Pixels" Basic_Y="135 _Pixels" TimDiv="19999999999" TimPos="1217564924,0,1217564924,1217564924," VolDiv="0.00127723,0.5,0.00127723,0.00127723," Tunnels=",,,," Trigger="1" Filter="0.1 V" Trigger="1" AutoSC="1" Tracks="1" HideCh="false,false,false,false," VolPos="0.00732168,-2.5,0.00732168,0.00732168," />
+
+<item itemtype="Clock" CircId="Clock-470" mainComp="false" Show_id="false" Show_Val="false" Pos="-348,-444" rotation="0" hflip="1" vflip="1" label="Clock-470" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="10 Hz" Always_On="false" />
+
+<item itemtype="Clock" CircId="Clock-472" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-428" rotation="0" hflip="1" vflip="1" label="Clock-470" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="20 Hz" Always_On="false" />
+
+<item itemtype="Clock" CircId="Clock-473" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-364" rotation="0" hflip="1" vflip="1" label="Clock-470" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="60 Hz" Always_On="false" />
+
+<item itemtype="Clock" CircId="Clock-475" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-396" rotation="0" hflip="1" vflip="1" label="Clock-470" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="40 Hz" Always_On="false" />
+
+<item itemtype="Clock" CircId="Clock-476" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-380" rotation="0" hflip="1" vflip="1" label="Clock-470" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="50 Hz" Always_On="false" />
+
+<item itemtype="Clock" CircId="Clock-477" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-412" rotation="0" hflip="1" vflip="1" label="Clock-470" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="30 Hz" Always_On="false" />
+
+<item itemtype="Clock" CircId="Clock-484" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-348" rotation="0" hflip="1" vflip="1" label="Clock-484" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="70 Hz" Always_On="false" />
+
+<item itemtype="Clock" CircId="Clock-486" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-332" rotation="0" hflip="1" vflip="1" label="Clock-486" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="80 Hz" Always_On="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-488" mainComp="false" Show_id="false" Show_Val="false" Pos="-328,-620" rotation="0" hflip="1" vflip="1" label="TextComponent-488" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _Pixels" Border="1 _Pixels" Opacity="1" Font="Helvetica [Cronyx]" Font_Size="10 _Pixels" Fixed_Width="true" Text="0 000&#xa;1 001&#xa;2 010&#xa;3 011&#xa;5 101&#xa;6 110&#xa;7 111... TEXT ..." />
+
+<item itemtype="Connector" startpinid="Fixed Voltage-21-outnod" endpinid="74HC151-375-S0" enodeid="Circ_eNode-432" pointList="-240,-320,-212,-320,-212,-352,-176,-352" />
+
+<item itemtype="Connector" startpinid="Fixed Voltage-23-outnod" endpinid="74HC151-375-S1" enodeid="Circ_eNode-433" pointList="-240,-304,-204,-304,-204,-344,-176,-344" />
+
+<item itemtype="Connector" startpinid="Fixed Voltage-29-outnod" endpinid="74HC151-375-S2" enodeid="Circ_eNode-434" pointList="-240,-288,-196,-288,-196,-336,-176,-336" />
+
+<item itemtype="Connector" startpinid="Ground-425-Gnd" endpinid="74HC151-375-!E" enodeid="Circ_eNode-440" pointList="-252,-200,-176,-200,-176,-320" />
+
+<item itemtype="Connector" uid="Connector-463" startpinid="74HC151-375-Y" endpinid="Oscope-461-Pin1" enodeid="enode-463" pointList="-120,-416,-120,-448,24,-448" />
+
+<item itemtype="Connector" uid="Connector-471" startpinid="Clock-470-outnod" endpinid="74HC151-375-I0" enodeid="enode-471" pointList="-332,-444,-176,-444,-176,-424" />
+
+<item itemtype="Connector" uid="Connector-479" startpinid="Clock-472-outnod" endpinid="74HC151-375-I1" enodeid="enode-479" pointList="-336,-428,-204,-428,-204,-416,-176,-416" />
+
+<item itemtype="Connector" uid="Connector-480" startpinid="Clock-477-outnod" endpinid="74HC151-375-I2" enodeid="enode-480" pointList="-336,-412,-220,-412,-220,-408,-176,-408" />
+
+<item itemtype="Connector" uid="Connector-481" startpinid="Clock-475-outnod" endpinid="74HC151-375-I3" enodeid="enode-481" pointList="-336,-396,-276,-396,-276,-400,-176,-400" />
+
+<item itemtype="Connector" uid="Connector-482" startpinid="Clock-476-outnod" endpinid="74HC151-375-I4" enodeid="enode-482" pointList="-336,-380,-268,-380,-268,-392,-176,-392" />
+
+<item itemtype="Connector" uid="Connector-483" startpinid="Clock-473-outnod" endpinid="74HC151-375-I5" enodeid="enode-483" pointList="-336,-364,-260,-364,-260,-384,-176,-384" />
+
+<item itemtype="Connector" uid="Connector-485" startpinid="Clock-484-outnod" endpinid="74HC151-375-I6" enodeid="enode-485" pointList="-336,-348,-256,-348,-256,-376,-176,-376" />
+
+<item itemtype="Connector" uid="Connector-487" startpinid="Clock-486-outnod" endpinid="74HC151-375-I7" enodeid="enode-487" pointList="-336,-332,-248,-332,-248,-368,-176,-368" />
+
+</circuit>
